@@ -19,7 +19,11 @@ non-tail-recursive version? Why, or why not, and what is the complexity
 (worst-case $\Theta$)? Add your answer, including your reasoning, to this
 markdown file.
 
+The complexity is different from the non-tail recursive version because it runs at $\Theta$(n) compared to the non tail version running at $\Theta$(2^n). The non tail is slower because we use two recursive calls compared to the tail recursive here that only uses one recursive call. 
+
 Sources:
 https://github.com/COSC3020/fibonacci-invariants-KobeLimon21 -  looked back at old fib for base cases 
+
+Slides in DP - looked at non tail fibonacci code 
 
 "I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice." 
